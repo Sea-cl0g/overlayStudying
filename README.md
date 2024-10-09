@@ -17,6 +17,9 @@
 ## 📦 Usage
 
 ## 🪪Licence
+The source code is licensed under the MIT License.
+The website content is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
+Icons used in this program are also licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](./LICENSE).
 
 
 ## 📚Author
