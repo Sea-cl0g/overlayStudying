@@ -126,10 +126,10 @@ max_length = 3
 caret_blink = true
 
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer/Hslider_r" to="." method="_on_hslider_r_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer/LineEdit_r" to="." method="_on_line_edit_r_text_changed"]
+[connection signal="text_submitted" from="VBoxContainer/HBoxContainer/LineEdit_r" to="." method="_on_line_edit_r_text_submitted"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer2/Hslider_g" to="." method="_on_hslider_g_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer2/LineEdit_g" to="." method="_on_line_edit_g_text_changed"]
+[connection signal="text_submitted" from="VBoxContainer/HBoxContainer2/LineEdit_g" to="." method="_on_line_edit_g_text_submitted"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer3/Hslider_b" to="." method="_on_hslider_b_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer3/LineEdit_b" to="." method="_on_line_edit_b_text_changed"]
+[connection signal="text_submitted" from="VBoxContainer/HBoxContainer3/LineEdit_b" to="." method="_on_line_edit_b_text_submitted"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer4/HSlider_a" to="." method="_on_h_slider_a_value_changed"]
 [connection signal="text_changed" from="VBoxContainer/HBoxContainer4/LineEdit_a" to="." method="_on_line_edit_a_text_changed"]
