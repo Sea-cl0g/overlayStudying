@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=15 format=4 uid="uid://glt0l67s08fw"]
+[gd_resource type="Theme" load_steps=17 format=4 uid="uid://glt0l67s08fw"]
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_ak4w2"]
 
@@ -9,6 +9,30 @@ font_names = PackedStringArray("Cascadia Code")
 
 [sub_resource type="SystemFont" id="SystemFont_a75io"]
 font_names = PackedStringArray("Cascadia Code")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j3ekm"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.223529, 0.733333, 0.909804, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2laba"]
+bg_color = Color(1, 1, 1, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.701961, 0.701961, 0.701961, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
 
 [sub_resource type="Image" id="Image_aj7t8"]
 data = {
@@ -1325,7 +1349,7 @@ cache/0/25/0/glyphs/69/size = Vector2(15, 21)
 cache/0/25/0/glyphs/69/uv_rect = Rect2(18, 23, 15, 21)
 cache/0/25/0/glyphs/69/texture_idx = 0
 
-[sub_resource type="Image" id="Image_hl505"]
+[sub_resource type="Image" id="Image_mn27l"]
 data = {
 "data": PackedByteArray("////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////YP///2H///8A////AP///wD///8A////AP///wD///8A////AP///2D///9h////AP///wD///8A////YP///7////+/////Yf///wD///8A////AP///wD///8A////AP///2D///+/////v////2H///8A////AP///2H///+/////v////7////9h////AP///wD///8A////AP///2D///+/////v////7////9g////AP///wD///8A////Yf///7////+/////v////2H///8A////AP///2D///+/////v////7////9g////AP///wD///8A////AP///wD///9h////v////7////+/////Yf///2D///+/////v////7////9g////AP///wD///8A////AP///wD///8A////AP///2H///+/////v////7////+/////v////7////9g////AP///wD///8A////AP///wD///8A////AP///wD///8A////Yf///7////+/////v////7////9g////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///2D///+/////v////7////+/////Yf///wD///8A////AP///wD///8A////AP///wD///8A////AP///2D///+/////v////7////+/////v////7////9h////AP///wD///8A////AP///wD///8A////AP///2D///+/////v////7////9g////Yf///7////+/////v////2H///8A////AP///wD///8A////AP///2D///+/////v////7////9g////AP///wD///9h////v////7////+/////Yf///wD///8A////AP///2D///+/////v////7////9g////AP///wD///8A////AP///2H///+/////v////7////9h////AP///wD///9h////v////7////9g////AP///wD///8A////AP///wD///8A////Yf///7////+/////YP///wD///8A////AP///2H///9g////AP///wD///8A////AP///wD///8A////AP///wD///9h////YP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AA=="),
 "format": "RGBA8",
@@ -1335,9 +1359,9 @@ data = {
 }
 
 [sub_resource type="ImageTexture" id="ImageTexture_7ic3a"]
-image = SubResource("Image_hl505")
+image = SubResource("Image_mn27l")
 
-[sub_resource type="Image" id="Image_464ds"]
+[sub_resource type="Image" id="Image_muunw"]
 data = {
 "data": PackedByteArray("////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////gP///4H///8A////AP///wD///8A////AP///wD///8A////AP///4D///+B////AP///wD///8A////gP//////////////gf///wD///8A////AP///wD///8A////AP///4D//////////////4H///8A////AP///4H///////////////////+B////AP///wD///8A////AP///4D///////////////////+A////AP///wD///8A////gf///////////////////4H///8A////AP///4D///////////////////+A////AP///wD///8A////AP///wD///+B////////////////////gf///4D///////////////////+A////AP///wD///8A////AP///wD///8A////AP///4H///////////////////////////////////+A////AP///wD///8A////AP///wD///8A////AP///wD///8A////gf////////////////////////+A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///4D/////////////////////////gf///wD///8A////AP///wD///8A////AP///wD///8A////AP///4D///////////////////////////////////+B////AP///wD///8A////AP///wD///8A////AP///4D///////////////////+A////gf///////////////////4H///8A////AP///wD///8A////AP///4D///////////////////+A////AP///wD///+B////////////////////gf///wD///8A////AP///4D///////////////////+A////AP///wD///8A////AP///4H///////////////////+B////AP///wD///+B//////////////+A////AP///wD///8A////AP///wD///8A////gf//////////////gP///wD///8A////AP///4H///+A////AP///wD///8A////AP///wD///8A////AP///wD///+B////gP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AA=="),
 "format": "RGBA8",
@@ -1347,7 +1371,7 @@ data = {
 }
 
 [sub_resource type="ImageTexture" id="ImageTexture_yij5n"]
-image = SubResource("Image_464ds")
+image = SubResource("Image_muunw")
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_u3a7l"]
 
@@ -1355,8 +1379,12 @@ image = SubResource("Image_464ds")
 HSlider/icons/grabber = SubResource("ViewportTexture_ak4w2")
 HSlider/icons/grabber_highlight = SubResource("ViewportTexture_5lifd")
 Label/fonts/font = SubResource("SystemFont_bd6il")
+LineEdit/colors/caret_color = Color(0.25, 0.25, 0.25, 1)
+LineEdit/colors/font_color = Color(0.25, 0.25, 0.25, 1)
 LineEdit/font_sizes/font_size = 12
 LineEdit/fonts/font = SubResource("SystemFont_a75io")
+LineEdit/styles/focus = SubResource("StyleBoxFlat_j3ekm")
+LineEdit/styles/normal = SubResource("StyleBoxFlat_2laba")
 Window/colors/title_color = Color(0.875, 0.875, 0.875, 1)
 Window/colors/title_outline_modulate = Color(0, 0, 0, 1)
 Window/constants/close_h_offset = 18

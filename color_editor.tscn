@@ -54,7 +54,9 @@ rounded = true
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
+alignment = 1
 max_length = 3
+caret_blink = true
 
 [node name="Label2" type="Label" parent="VBoxContainer"]
 layout_mode = 2
@@ -75,7 +77,9 @@ max_value = 255.0
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
+alignment = 1
 max_length = 3
+caret_blink = true
 
 [node name="Label3" type="Label" parent="VBoxContainer"]
 layout_mode = 2
@@ -95,7 +99,9 @@ max_value = 255.0
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
+alignment = 1
 max_length = 3
+caret_blink = true
 
 [node name="Label4" type="Label" parent="VBoxContainer"]
 layout_mode = 2
@@ -115,7 +121,9 @@ value = 100.0
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "100"
+alignment = 1
 max_length = 3
+caret_blink = true
 
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer/Hslider_r" to="." method="_on_hslider_r_value_changed"]
 [connection signal="text_changed" from="VBoxContainer/HBoxContainer/Panel_r" to="." method="_on_panel_r_text_changed"]
