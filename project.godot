@@ -19,7 +19,7 @@ https://x.com/boo_manKnow408
 デベロッパ"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.png"
+config/icon="res://assets/icon.png"
 
 [display]
 

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://doeniehe584q7"]
 
-[ext_resource type="Theme" uid="uid://glt0l67s08fw" path="res://color_editor_theme.tres" id="1_da2e0"]
-[ext_resource type="Script" path="res://color_editor.gd" id="2_8fay3"]
+[ext_resource type="Theme" uid="uid://glt0l67s08fw" path="res://src/color_editor_theme.tres" id="1_da2e0"]
+[ext_resource type="Script" path="res://src/color_editor.gd" id="2_8fay3"]
 
 [node name="ColorEditor" type="Control"]
 layout_mode = 3
