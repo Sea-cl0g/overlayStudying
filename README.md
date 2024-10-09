@@ -16,11 +16,15 @@
 
 ## 📦 Usage
 
-## 🪪Licence
-The source code is licensed under the MIT License.
-The website content is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
-Icons used in this program are also licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](./LICENSE).
 
+## 🪪Licence
+The source code is licensed under the [MIT License](https://opensource.org/license/mit).
+The website content is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+Icons used in this program are also licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](./LICENSE).
+<br>
+> ソースコードのライセンスは[MIT License](https://opensource.org/license/mit)です。
+ウェブサイトのコンテンツは[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)の下でライセンスされています。
+このプログラムで使用されているアイコンも[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)ライセンスです。[LICENSE](./LICENSE)を確認してください。
 
 ## 📚Author
 [<img width="96" alt="icon_driller" src="https://github.com/user-attachments/assets/283de1f1-3d91-4186-a3ac-45fb3b32b4a3">]()
@@ -28,5 +32,3 @@ Icons used in this program are also licensed under the [Creative Commons Attribu
 [<img width="32" alt="github-mark" src="https://github.com/user-attachments/assets/aac2e70c-0694-49e9-8648-1970c08a57bd">](https://github.com/Sea-cl0g)
 [<img width="32" alt="x-logo-black" src="https://github.com/user-attachments/assets/dc730c9f-8d64-493f-a78c-ff7206166759">](https://x.com/boo_manKnow408)
 [<img width="32" alt="qiita-icon" src="https://github.com/user-attachments/assets/7ee1aa97-82b1-49b8-8e2b-1c2a0c0dc613">](https://qiita.com/boo_manKnow)
-
-## 📚Author
