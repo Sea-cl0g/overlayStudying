@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=4 uid="uid://c4o0r73tmtvxp"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_3wak6"]
-[ext_resource type="Texture2D" uid="uid://b3k7kc0522mry" path="res://カラー設定アイコン.png" id="2_braio"]
+[ext_resource type="Texture2D" uid="uid://cyk4hgi3baukf" path="res://coloreditor_icon.png" id="3_kv54a"]
 [ext_resource type="PackedScene" uid="uid://doeniehe584q7" path="res://color_editor.tscn" id="3_q62cy"]
 
 [sub_resource type="Image" id="Image_qfty5"]
@@ -748,15 +748,19 @@ cache/0/20/0/scale = 1.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_htojd"]
 bg_color = Color(0.203922, 0.203922, 0.203922, 0.470588)
-border_width_left = 20
-border_width_top = 20
-border_width_right = 20
-border_width_bottom = 20
+border_width_left = 15
+border_width_top = 15
+border_width_right = 15
+border_width_bottom = 15
 border_color = Color(1, 1, 1, 1)
 corner_radius_top_left = 200
 corner_radius_top_right = 200
 corner_radius_bottom_right = 200
 corner_radius_bottom_left = 200
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
 anti_aliasing = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2wvir"]
@@ -766,6 +770,10 @@ corner_radius_top_left = 200
 corner_radius_top_right = 200
 corner_radius_bottom_right = 200
 corner_radius_bottom_left = 200
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
 anti_aliasing = false
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j2h85"]
@@ -774,6 +782,10 @@ corner_radius_top_left = 200
 corner_radius_top_right = 200
 corner_radius_bottom_right = 200
 corner_radius_bottom_left = 200
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
 anti_aliasing = false
 
 [sub_resource type="Theme" id="Theme_o6efq"]
@@ -830,16 +842,15 @@ metadata/_edit_use_anchors_ = true
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 10.0
-offset_top = 750.0
-offset_right = -190.0
-offset_bottom = 350.0
+offset_left = 15.0
+offset_top = 740.0
+offset_right = -329.0
+offset_bottom = 196.0
 grow_horizontal = 2
 grow_vertical = 2
-scale = Vector2(0.1, 0.1)
+scale = Vector2(0.15, 0.15)
 theme = SubResource("Theme_o6efq")
-toggle_mode = true
-icon = ExtResource("2_braio")
+icon = ExtResource("3_kv54a")
 icon_alignment = 1
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

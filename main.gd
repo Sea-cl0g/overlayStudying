@@ -5,8 +5,8 @@ extends Node
 @onready var colButton = $Button
 @onready var colEditor = $ColorEditor
 
-const button_space_left = 10
-const button_space_bottom = 50
+const button_space_left = 15
+const button_space_bottom = 60
 
 var default_window_size: Vector2i
 
@@ -17,6 +17,7 @@ func _ready():
 	get_tree().get_root().size_changed.connect(Callable(self, "_on_screen_resized"))
 	default_window_size = DisplayServer.window_get_size()
 	colEditor.visible = false
+	_on_screen_resized()
 
 #----------------------------------------------------------------------------------------------------
 # colorEditorを開く
@@ -47,4 +48,4 @@ func _on_screen_resized():
 	
 	colButton.position.x = button_space_left
 	colButton.position.y = new_window_size.y - button_space_bottom
-	colButton.size = Vector2i(400, 400)
+	colButton.size = Vector2i(300, 300)

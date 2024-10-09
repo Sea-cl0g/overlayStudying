@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b3k7kc0522mry"
-path="res://.godot/imported/カラー設定アイコン.png-0886381a3a809c1e477ec83583478faf.ctex"
+uid="uid://cyk4hgi3baukf"
+path="res://.godot/imported/coloreditor_icon.png-7161d5e7379237ed46dddc4a4678446e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://カラー設定アイコン.png"
-dest_files=["res://.godot/imported/カラー設定アイコン.png-0886381a3a809c1e477ec83583478faf.ctex"]
+source_file="res://coloreditor_icon.png"
+dest_files=["res://.godot/imported/coloreditor_icon.png-7161d5e7379237ed46dddc4a4678446e.ctex"]
 
 [params]
 
