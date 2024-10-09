@@ -20,10 +20,10 @@
 
 ## 🪪Licence
 The source code is licensed under the [MIT License](https://opensource.org/license/mit).
-Icons used in this program are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](./LICENSE).
+Icons used in this program are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](./LICENSE.md).
 <br>
 > ソースコードのライセンスは[MIT License](https://opensource.org/license/mit)です。
-このプログラムで使用されているアイコンは[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)ライセンスです。[LICENSE](./LICENSE)を確認してください。
+このプログラムで使用されているアイコンは[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)ライセンスです。[LICENSE](./LICENSE.md)を確認してください。
 
 <br>
 
