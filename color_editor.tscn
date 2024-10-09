@@ -50,7 +50,7 @@ max_value = 255.0
 value = 255.0
 rounded = true
 
-[node name="Panel_r" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+[node name="LineEdit_r" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
@@ -73,7 +73,7 @@ size_flags_vertical = 1
 theme = ExtResource("1_da2e0")
 max_value = 255.0
 
-[node name="Panel_g" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
+[node name="LineEdit_g" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
@@ -95,7 +95,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 1
 max_value = 255.0
 
-[node name="Panel_b" type="LineEdit" parent="VBoxContainer/HBoxContainer3"]
+[node name="LineEdit_b" type="LineEdit" parent="VBoxContainer/HBoxContainer3"]
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "255"
@@ -117,7 +117,7 @@ size_flags_vertical = 1
 max_value = 255.0
 value = 100.0
 
-[node name="Panel_a" type="LineEdit" parent="VBoxContainer/HBoxContainer4"]
+[node name="LineEdit_a" type="LineEdit" parent="VBoxContainer/HBoxContainer4"]
 layout_mode = 2
 theme = ExtResource("1_da2e0")
 text = "100"
@@ -126,10 +126,10 @@ max_length = 3
 caret_blink = true
 
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer/Hslider_r" to="." method="_on_hslider_r_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer/Panel_r" to="." method="_on_panel_r_text_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer/LineEdit_r" to="." method="_on_panel_r_text_changed"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer2/Hslider_g" to="." method="_on_hslider_g_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer2/Panel_g" to="." method="_on_panel_g_text_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer2/LineEdit_g" to="." method="_on_panel_g_text_changed"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer3/Hslider_b" to="." method="_on_hslider_b_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer3/Panel_b" to="." method="_on_panel_b_text_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer3/LineEdit_b" to="." method="_on_panel_b_text_changed"]
 [connection signal="value_changed" from="VBoxContainer/HBoxContainer4/HSlider_a" to="." method="_on_h_slider_a_value_changed"]
-[connection signal="text_changed" from="VBoxContainer/HBoxContainer4/Panel_a" to="." method="_on_panel_a_text_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer4/LineEdit_a" to="." method="_on_panel_a_text_changed"]
