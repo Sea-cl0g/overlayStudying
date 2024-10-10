@@ -1,4 +1,8 @@
-# MIT License
+# LICENCE
+> The source code is licensed under the [MIT License](https://opensource.org/license/mit).
+> Icons used in this program are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
+
+## MIT License
 
 Copyright (c) 2024 Sea-cl0g
 
@@ -22,7 +26,7 @@ SOFTWARE.
 
 
 
-# Attribution-ShareAlike 4.0 International
+## Attribution-ShareAlike 4.0 International
 
 =======================================================================
 
