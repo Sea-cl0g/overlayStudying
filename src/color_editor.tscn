@@ -1,0 +1,135 @@
+[gd_scene load_steps=3 format=3 uid="uid://doeniehe584q7"]
+
+[ext_resource type="Theme" uid="uid://glt0l67s08fw" path="res://src/color_editor_theme.tres" id="1_da2e0"]
+[ext_resource type="Script" path="res://src/color_editor.gd" id="2_8fay3"]
+
+[node name="ColorEditor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -600.0
+offset_bottom = -800.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_da2e0")
+script = ExtResource("2_8fay3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 500.0
+color = Color(0.788235, 0.780392, 0.772549, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 50.0
+offset_right = 550.0
+offset_bottom = 500.0
+alignment = 1
+
+[node name="Panel" type="ColorRect" parent="VBoxContainer"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "R"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Hslider_r" type="HSlider" parent="VBoxContainer/HBoxContainer"]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource("1_da2e0")
+max_value = 255.0
+value = 255.0
+rounded = true
+
+[node name="LineEdit_r" type="LineEdit" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme = ExtResource("1_da2e0")
+text = "255"
+alignment = 1
+max_length = 3
+caret_blink = true
+
+[node name="Label2" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "G"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Hslider_g" type="HSlider" parent="VBoxContainer/HBoxContainer2"]
+modulate = Color(0, 1, 0, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+theme = ExtResource("1_da2e0")
+max_value = 255.0
+
+[node name="LineEdit_g" type="LineEdit" parent="VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme = ExtResource("1_da2e0")
+text = "255"
+alignment = 1
+max_length = 3
+caret_blink = true
+
+[node name="Label3" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "B"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Hslider_b" type="HSlider" parent="VBoxContainer/HBoxContainer3"]
+modulate = Color(0, 0, 1, 1)
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+max_value = 255.0
+
+[node name="LineEdit_b" type="LineEdit" parent="VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+theme = ExtResource("1_da2e0")
+text = "255"
+alignment = 1
+max_length = 3
+caret_blink = true
+
+[node name="Label4" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "A"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HSlider_a" type="HSlider" parent="VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+max_value = 255.0
+value = 100.0
+
+[node name="LineEdit_a" type="LineEdit" parent="VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+theme = ExtResource("1_da2e0")
+text = "100"
+alignment = 1
+max_length = 3
+caret_blink = true
+
+[connection signal="value_changed" from="VBoxContainer/HBoxContainer/Hslider_r" to="." method="_on_hslider_r_value_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer/LineEdit_r" to="." method="_on_line_edit_r_text_changed"]
+[connection signal="value_changed" from="VBoxContainer/HBoxContainer2/Hslider_g" to="." method="_on_hslider_g_value_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer2/LineEdit_g" to="." method="_on_line_edit_g_text_changed"]
+[connection signal="value_changed" from="VBoxContainer/HBoxContainer3/Hslider_b" to="." method="_on_hslider_b_value_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer3/LineEdit_b" to="." method="_on_line_edit_b_text_changed"]
+[connection signal="value_changed" from="VBoxContainer/HBoxContainer4/HSlider_a" to="." method="_on_h_slider_a_value_changed"]
+[connection signal="text_changed" from="VBoxContainer/HBoxContainer4/LineEdit_a" to="." method="_on_line_edit_a_text_changed"]
