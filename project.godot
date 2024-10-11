@@ -16,7 +16,7 @@ config/description="「OverlayStudying」を利用すると、現実世界の赤
 
 
 https://x.com/boo_manKnow408
-デベロッパ"
+Author"
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://assets/icon.png"
